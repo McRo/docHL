@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8" />
+    
+    <style>
+
+    .pinit {
+            color: #696464;
+            display: block;
+            overflow: scroll;
+            border-radius: 16px;
+            width: auto;
+            max-height: 50vh;
+            background-color: #afaeae26;
+            text-align: center;
+            margin: 5px auto;
+            max-width: 1080px;
+            padding: 0 5px;
+
+    }
+
+    .pinit h1 {
+        font-size: 1.2vw;
+        /*	text-align: left; */
+        position: relative;
+        margin: 0.8vw 0.5vw 0.5vw 0.5vw;
+    }
+
+    .pinit span {
+        display: inline-grid;
+        margin: 0.2vw;
+        overflow: hidden;
+    }
+
+    /* .pinit span img:hover {transform: rotateY(0deg) scale(1.2);}
+	.pinit span img ~ li{ transform: rotateY(-45deg);} */
+    .pinit span {
+        position: relative;
+        z-index: 5;
+        background-color: #AE2573;
+    }
+
+    .pinit span img{
+        /* height:auto; /* 265px*/
+        height:265px;
+    }
+
+    .pinit span span.ov {
+        position: absolute;
+        z-index: -1;
+        color: #FFF;
+        top: 8px;
+        left: 16px;
+        font-size: 1.2vh;
+    }
+
+    .pinit img {
+        width: 176px;
+    }
+
+    #code {
+        display: inline-block;
+        margin: 0 5px;
+
+
+    }
+
+    .pinit span.new:after {
+        content: 'Nouveau';
+        right: 30px;
+        top: 15px;
+        position: absolute;
+        text-align: center;
+        transform-origin: center;
+        transform: translate(50%) rotate(45deg);
+        text-align: center;
+        width: 100px;
+        color: #AE2573;
+        background-color: #FFF;
+        }
+
+    </style>
+
+
+<body>
+    
+    <div class="docHL" data-type="" data-filter-tag="code_stat3" data-filter-value="" data-url="src/BUDRO-liste-exemplaire.xml" />This is an embed</div> 
+    <div class="docHL" data-type="" data-filter-tag="code_stat3" data-filter-value="BIOBOT" data-url="src/BUST-liste-exemplaire.xml" />This is an embed</div> 
+    
+</body>
+
+
+
+<script src="embedDoc.js" ></script>
+
+</html>
